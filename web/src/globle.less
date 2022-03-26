@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8125rem;
+  background-color: #ededed;
+}
+
+.fx {
+  display: flex;
+}
+
+.fx-1 {
+  flex: 1;
+}
+
+.bg-w {
+  background-color: white;
+}
+.bg-g {
+  background-color: rgb(243, 243, 243);
+}
+.bg-b {
+  background-color: black;
+}
+.bg-y {
+  background-color: #db9e3f;
+}
+
+.fs-w {
+  color: white;
+}
+.fs-g {
+  color: #777;
+}
+.fs-small {
+  font-size: 0.75rem;
+}
+.fs-big {
+  font-size: 15px;
+}
+.tx-pad {
+  padding: 0.3125rem;
+}
+
+.tx-left {
+  text-align: left;
+}
+.tx-center {
+  text-align: center;
+}
+
+//雪碧图
+.sp {
+  background: url("~@/assets/index.png") no-repeat 0 0; //左上0 不重复
+  background-size: 23.4375rem; //一般以手机屏幕宽为size
+  display: inline-block;
+  .sp-blz {
+    background-position: 63.546% 15.517%;
+    width: 1.4375rem;
+    height: 1.25rem;
+  }
+}
