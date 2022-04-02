@@ -38,12 +38,16 @@ export default {
 <style lang="less">
 .Main {
   .download {
+    position: sticky;
+    top: 0;
+    left: 0;
     padding: 0.625rem;
+    z-index: 9;
     .center {
       padding-left: 0.625rem;
     }
     .btn {
-      padding: 0.3125rem 0.5625rem;
+      padding: 7px;
       border-radius: 0.1875rem;
       border: none;
     }
